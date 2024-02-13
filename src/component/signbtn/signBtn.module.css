@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.text {
+  color: var(--text);
+}
+
+.btn,
+.btnpopup {
+  border-radius: 5px;
+  background-color: var(--text);
+  color: var(--main);
+  padding: 5px 10px;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all .5s ease;
+  transform: scale(1);
+  text-transform: capitalize;
+  font-size: 17px;
+
+  margin: 0 auto;
+}
+
+.btnpopup {
+  background-color: var(--main);
+  color: var(--text);
+}
+
+.btn:hover {
+  border-radius: 0;
+  transform: scale(.9);
+}
+
+.user,
+.loading {
+  text-transform: capitalize;
+}

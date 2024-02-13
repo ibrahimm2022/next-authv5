@@ -1,0 +1,11 @@
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background-color: #cdacac;
+  padding: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,32 @@
+.checkpassword {
+  display: flex;
+  gap: 3px;
+}
+
+.tooweak {
+  background-color: red;
+}
+
+.weak {
+  background-color: orange;
+}
+
+.strong {
+  background-color: yellow;
+}
+
+.toostrong {
+  background-color: #23ff23;
+}
+
+.err {
+  font-size: 12px;
+  color: red;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.fielderr {
+  border: 1px solid red !important;
+  padding: 5px;
+}

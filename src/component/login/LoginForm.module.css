@@ -1,0 +1,97 @@
+.form {
+  padding: 20px;
+  background-color: var(--text);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.group {
+  width: 100%
+}
+
+.label {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.input {
+  padding: 10px 10px;
+  background-color: transparent;
+  border: 1px solid var(--main);
+  color: var(--main);
+  outline: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: var(--main);
+  color: var(--text);
+  padding: 10px 10px;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all .5s ease;
+  transform: scale(1);
+  text-transform: capitalize;
+  font-size: 19px;
+}
+
+.btn:not(:disabled):hover {
+  border-radius: 0;
+  transform: scale(.9);
+}
+
+.btn:disabled {
+  opacity: .7;
+}
+
+.links {
+  color: var(--main);
+  display: flex;
+  gap: 10px;
+}
+
+.link {
+  color: var(--main);
+  font-size: 15px;
+  transition: all .5s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.err {
+  font-size: 12px;
+  color: red !important;
+  font-weight: 400;
+}
+
+.filederr {
+  border: 1px solid red !important;
+  padding: 5px;
+}
+
+.icon {
+  color: var(--main);
+  position: absolute;
+  transform: translatey(-50%);
+  right: 10px;
+  top: 50%;
+}
+
+@media (max-width:667px) {
+  .links {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+}

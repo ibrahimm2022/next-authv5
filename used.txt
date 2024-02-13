@@ -1,0 +1,14 @@
+link :https://www.youtube.com/watch?v=Xa73Xr8PM2k
+liberary => 
+prisma
+bcrypt
+check-password-strength
+formik
+handlebars
+jsonwebtoken
+next
+next-auth
+nodemailer
+react-toastify
+reactjs-popup
+yup

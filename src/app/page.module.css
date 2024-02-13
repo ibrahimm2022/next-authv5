@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.des {
+  text-align: center;
+  color: var(--text);
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.btn {
+
+  background-color: var(--text);
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all .5s ease;
+  transform: scale(1);
+}
+
+.btn:hover {
+  border-radius: 0;
+  transform: scale(.9);
+}

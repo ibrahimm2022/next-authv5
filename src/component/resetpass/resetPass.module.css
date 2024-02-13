@@ -1,0 +1,89 @@
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: var(--text);
+  color: var(--main);
+}
+
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.pass {
+  width: 100%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.label {
+  text-transform: capitalize;
+}
+
+.inputPass {
+  border: none;
+  outline: none;
+  padding: 5px 0;
+  flex: 1;
+}
+
+.input {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+  border: 1px solid;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: var(--main);
+  color: var(--text);
+  border: none;
+  outline: none;
+  transform: scale(1);
+  transition: all .5s ease;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+  text-transform: capitalize;
+  font-size: 17px;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.btn:not(:disabled):hover {
+  transform: scale(.9);
+}
+
+.btn:disabled {
+  opacity: .8;
+  cursor: not-allowed;
+}
+
+.err {
+  font-size: 13px;
+  color: red;
+  text-transform: capitalize;
+}
+
+.errtoken {
+  color: red;
+  text-transform: capitalize;
+  font-size: 19px;
+  text-align: center;
+}

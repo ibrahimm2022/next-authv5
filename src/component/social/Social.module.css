@@ -1,0 +1,17 @@
+.social {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  width: fit-content;
+  padding: 10px 15px;
+  /* background-color: transparent; */
+  border: none;
+  cursor: pointer;
+  flex: 1;
+  font-size: 25px;
+}
